@@ -1,8 +1,24 @@
 node_modules/
 .next/
 .vercel/
+dist/
+build/
+coverage/
+.cache/
+*.tmp
+*.temp
 *.log
 .env*
 !.env.example
 
-.vercel
+# Local staging, review, and deployment artifacts
+/.agents/
+/.video-tools/
+/staging/
+/antenatal-vercel-deploy/
+/video-review-*/
+/*-check.png
+/frame-*.png
+/rules-*.png
+/video-frame.png
+/github-pr-body.md
